@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xyz.joas.forcedarkmodeoreo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Force always dark mode on Android Oreo 8.1 (API 27)" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="90" />
+    </application>
+</manifest>
